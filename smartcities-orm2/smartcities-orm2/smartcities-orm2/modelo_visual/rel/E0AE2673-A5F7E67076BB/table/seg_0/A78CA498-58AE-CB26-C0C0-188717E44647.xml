@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A78CA498-58AE-CB26-C0C0-188717E44647" name="TB_FORNECEDOR_RESERVA">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:56:39 UTC</createdTime>
+<generatorID>EAFD7B24-E9F6-2ECF-D392-06187CB0B3F0</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TB_RESERVA_cd_reserva" id="6036AC55-5905-F8CB-5C5B-CFAE469D64E1">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:56:39 UTC</createdTime>
+<generatorID>B28402EE-B9DE-5126-BFA1-65F0FCEBBFDB</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99715365-4559-3BD7-3C15-546EDCD34D86" referredColumn="D7AF3C9C-44A5-1E4A-CC73-498A6D3A306A"/>
+</associations>
+</Column>
+<Column name="TB_FORNECEDOR_id_fornecedor2" id="1990F6EF-F5B7-BBAD-7098-ED618649FC74">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 02:31:08 UTC</createdTime>
+<generatorID>876C8FE0-9A23-0AB2-238A-08263F51C352</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="013294B4-9C7F-2E25-96BD-9447446CB9B4" referredColumn="F3738D08-8F2F-FDE6-B20B-A61368896CEF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75DC4116-EA5A-16FE-D3E9-F57B2B0099F0" name="TB_FORNECEDOR_RESERVA_PK">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:56:39 UTC</createdTime>
+<generatorID>750A2F91-2006-96FD-57E6-7420FABEFC60</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="62A3C4D7-C1B8-883C-D8B0-2304B28CE13F" name="TB_FORNECEDOR_RESERVA_TB_RESERVA_FK">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:56:39 UTC</createdTime>
+<generatorID>2435AD37-227C-43A0-E150-F38729CE0CE4</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6036AC55-5905-F8CB-5C5B-CFAE469D64E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3390EF23-7506-70B1-3EF3-1EEB9F483634" name="TB_FORNECEDOR_RESERVA_TB_FORNECEDOR_FKv2">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 02:31:08 UTC</createdTime>
+<generatorID>D613485F-4B5A-8EBD-2165-8CABD7C96C8A</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1990F6EF-F5B7-BBAD-7098-ED618649FC74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

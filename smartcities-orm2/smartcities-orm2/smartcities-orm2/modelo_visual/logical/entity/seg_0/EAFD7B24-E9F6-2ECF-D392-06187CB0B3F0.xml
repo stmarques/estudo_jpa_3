@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EAFD7B24-E9F6-2ECF-D392-06187CB0B3F0" name="TB_FORNECEDOR_RESERVA">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:53:44 UTC</createdTime>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<engineerTo>
+<item key="E0AE2673-B4DD-99B9-79A8-A5F7E67076BB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_reserva" id="B28402EE-B9DE-5126-BFA1-65F0FCEBBFDB">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:55:39 UTC</createdTime>
+<generatorID>2435AD37-227C-43A0-E150-F38729CE0CE4</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<engineerTo>
+<item key="E0AE2673-B4DD-99B9-79A8-A5F7E67076BB" value="true"/>
+</engineerTo>
+<referedAttribute>7AEAE561-CD5C-A588-D0DA-7A287E4F1F3F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fornecedor" id="876C8FE0-9A23-0AB2-238A-08263F51C352">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:58:21 UTC</createdTime>
+<generatorID>D613485F-4B5A-8EBD-2165-8CABD7C96C8A</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<engineerTo>
+<item key="E0AE2673-B4DD-99B9-79A8-A5F7E67076BB" value="true"/>
+</engineerTo>
+<referedAttribute>37314D02-929B-4336-3D05-518E6C97D963</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="750A2F91-2006-96FD-57E6-7420FABEFC60" name="TB_FORNECEDOR_RESERVA PK">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:56:27 UTC</createdTime>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E0AE2673-B4DD-99B9-79A8-A5F7E67076BB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

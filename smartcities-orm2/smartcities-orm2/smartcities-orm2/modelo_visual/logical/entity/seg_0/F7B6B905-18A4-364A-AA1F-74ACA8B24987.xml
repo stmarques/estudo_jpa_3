@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7B6B905-18A4-364A-AA1F-74ACA8B24987" name="TB_PASSAGEIRO_CLIENTE">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:53:25 UTC</createdTime>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<engineerTo>
+<item key="E0AE2673-B4DD-99B9-79A8-A5F7E67076BB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_passageiro" id="8463B6F0-2A73-E874-28F5-C782198D7DF0">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:54:28 UTC</createdTime>
+<generatorID>9A625FB0-A173-9FC4-6857-6BAB87BBE0AD</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<engineerTo>
+<item key="E0AE2673-B4DD-99B9-79A8-A5F7E67076BB" value="true"/>
+</engineerTo>
+<referedAttribute>384867E0-D73C-D11B-4E59-964E23C6EF6B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_reserva" id="03B0B378-C6E8-FEBE-CE38-60322BCA3BCB">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:56:16 UTC</createdTime>
+<generatorID>EF3CB72A-C2A6-ABCC-EFDB-6C02A7D94E08</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<engineerTo>
+<item key="E0AE2673-B4DD-99B9-79A8-A5F7E67076BB" value="true"/>
+</engineerTo>
+<referedAttribute>7AEAE561-CD5C-A588-D0DA-7A287E4F1F3F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

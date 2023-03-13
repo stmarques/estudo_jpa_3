@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4BF705A5-2011-FC2E-DD8C-9ADB65124D22" name="TB_FORNECEDOR">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>FA95EC2C-AC74-333C-7385-80E0A64B5AC7</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_fornecedor" id="F3738D08-8F2F-FDE6-B20B-A61368896CEF">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>37314D02-929B-4336-3D05-518E6C97D963</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_fornecedor" id="6F984E6B-2744-1D33-D314-5E5F6E328017">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>83233F13-0EBE-77CD-824B-ACDE38762BF3</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_fornecedor" id="8C255321-AB77-F430-ADDA-255684D77034">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>04E04E4B-A444-B22F-60DD-D869504BE7D2</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_EMBARQUES_cd_embarque" id="F71D9AA0-FD3B-B589-B94E-88A35873C8F8">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>04766352-14E5-979D-7716-3330AC3648E5</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05A9EDF1-E256-8F6C-5CDB-30B3D0CB88C6" referredColumn="89FF4F08-1E0B-F267-D06B-0B202E0E8A0C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F39EC6A1-D179-3BAB-8887-8C39D97D347D" name="TB_FORNECEDOR_PK">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>636390D7-97F1-411C-FD55-7B3915A3FE50</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3738D08-8F2F-FDE6-B20B-A61368896CEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1F0CFA2-7581-E474-D3CE-85C6B4AA3018" name="TB_FORNECEDOR_TB_EMBARQUES_FK">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>E0127347-7CCF-B903-1D0B-3A3B9856846E</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F71D9AA0-FD3B-B589-B94E-88A35873C8F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

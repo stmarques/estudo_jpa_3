@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C666AE0A-CCCD-F4BD-0A49-78A582D0E882" name="TB_PASSAGEIRO_CLIENTE">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:56:39 UTC</createdTime>
+<generatorID>F7B6B905-18A4-364A-AA1F-74ACA8B24987</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TB_PASSAGEIROS_id_passageiro" id="6F796D1E-3AB8-DDB8-85C3-284D969787C1">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:56:39 UTC</createdTime>
+<generatorID>8463B6F0-2A73-E874-28F5-C782198D7DF0</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="968E5FCA-BD80-ECCA-77F7-7FC0DE8D91F2" referredColumn="25DA28FE-96FA-A641-7A2C-CDC9C5F66B09"/>
+</associations>
+</Column>
+<Column name="TB_RESERVA_cd_reserva" id="C59C2688-C638-88A9-43F3-C2B1DD5AA37C">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:56:39 UTC</createdTime>
+<generatorID>03B0B378-C6E8-FEBE-CE38-60322BCA3BCB</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E746B6F2-FDF9-DC20-7700-D386C6E4CF3F" referredColumn="D7AF3C9C-44A5-1E4A-CC73-498A6D3A306A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0ACAF77-7D75-6904-6F85-A9021D82CBF4" name="TB_PASSAGEIRO_CLIENTE_TB_PASSAGEIROS_FK">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:56:39 UTC</createdTime>
+<generatorID>9A625FB0-A173-9FC4-6857-6BAB87BBE0AD</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F796D1E-3AB8-DDB8-85C3-284D969787C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9612114E-B59D-3E08-AD29-196A01B62A7E" name="TB_PASSAGEIRO_CLIENTE_TB_RESERVA_FK">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:56:39 UTC</createdTime>
+<generatorID>EF3CB72A-C2A6-ABCC-EFDB-6C02A7D94E08</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C59C2688-C638-88A9-43F3-C2B1DD5AA37C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

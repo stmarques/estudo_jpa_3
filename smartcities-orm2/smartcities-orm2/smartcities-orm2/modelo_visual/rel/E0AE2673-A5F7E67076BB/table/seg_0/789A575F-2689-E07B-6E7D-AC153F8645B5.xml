@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="789A575F-2689-E07B-6E7D-AC153F8645B5" name="TB_RESERVA">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>4D6F3885-6DDF-78E9-AF98-DA9C5229C5E8</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_reserva" id="D7AF3C9C-44A5-1E4A-CC73-498A6D3A306A">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>7AEAE561-CD5C-A588-D0DA-7A287E4F1F3F</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_check_in" id="4306B167-188F-FF28-966D-6AA22CF49CC2">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>A4C02A74-5AAC-120B-7C6F-FFD4027DBF09</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_check_out" id="346EC5F0-1550-AF8C-F48F-B4106E545B42">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>FFF228E6-15F2-DA85-CD5B-513F48706F3C</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_reserva" id="19B9FA70-2828-1D71-0D43-B51EA85033EA">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>E8358F94-6EB1-8A27-E335-8D15D479405D</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_reserva" id="3E85F23C-3763-6559-DD33-FE2BCF65033A">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>7BA7E05A-2B12-D1CC-F880-2907D000A282</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_confirmacao" id="E79EF590-449E-6139-88F8-2193E0CEC20F">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>E3EED350-8EEC-866B-36D4-42197FBC8B93</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_EMBARQUES_cd_embarque" id="8541DBB9-5BD0-F054-57C5-8CC7BD26C501">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>E0C56E1D-24C8-1285-BCF5-28264ABC8C82</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB73BF3F-2C05-FF6F-0DDD-0CF1006A41D7" referredColumn="89FF4F08-1E0B-F267-D06B-0B202E0E8A0C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9977E3E-3EBE-5858-256E-32F7E84815C5" name="TB_RESERVA_PK">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>B5B259E8-C1DB-DEDC-4113-03A768C706A5</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7AF3C9C-44A5-1E4A-CC73-498A6D3A306A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0223731-059D-B013-DCBF-3184F7EDE7E9" name="TB_RESERVA_TB_EMBARQUES_FK">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>70F1548F-F650-3EC4-13FB-D875AE9D3D9B</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8541DBB9-5BD0-F054-57C5-8CC7BD26C501"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

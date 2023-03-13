@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0C618FB-31B6-3672-4733-DDC994228E7B" name="TB_PASSAGEIROS">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>8BBA3E74-6848-67D0-DE67-BEDF2E179784</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_passageiro" id="25DA28FE-96FA-A641-7A2C-CDC9C5F66B09">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>384867E0-D73C-D11B-4E59-964E23C6EF6B</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_passageiro" id="2AD718AB-0637-9AE0-39BD-5A7F9E2141B3">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>44A3A10A-0525-CE17-4190-C0026310D214</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_EMBARQUES_cd_embarque" id="9B32B052-BA4C-FA41-4EC9-115A9B13A0EC">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>B4CC7D54-A972-8CBA-B298-E014111421B8</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88171A88-80DE-9C66-27FC-26016B5F20C0" referredColumn="89FF4F08-1E0B-F267-D06B-0B202E0E8A0C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43ECB156-6B77-82A7-2BD2-B5A6FDC8C401" name="TB_PASSAGEIROS_PK">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>FB10A941-2F5E-79FA-3E81-DE4B6D14BC91</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25DA28FE-96FA-A641-7A2C-CDC9C5F66B09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FC84363-53BC-D8A1-B774-B2EC8A79BC38" name="TB_PASSAGEIROS_TB_EMBARQUES_FK">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>C88E5F11-4318-53FB-7897-3EB952145C39</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B32B052-BA4C-FA41-4EC9-115A9B13A0EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

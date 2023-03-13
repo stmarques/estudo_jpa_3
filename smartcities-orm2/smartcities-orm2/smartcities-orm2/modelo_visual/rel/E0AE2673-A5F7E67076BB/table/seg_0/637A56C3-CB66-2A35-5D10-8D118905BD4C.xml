@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="637A56C3-CB66-2A35-5D10-8D118905BD4C" name="TB_EMBARQUES">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>F274AE8D-3A90-BAB8-BA01-ABDA93EC8D41</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_embarque" id="89FF4F08-1E0B-F267-D06B-0B202E0E8A0C">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>62AFAFCB-6B37-F47A-4FA1-7F50206F70DE</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_destino" id="770FF8A7-B8DA-B473-1D8E-92A4FE9B64DE">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>367B9FB0-0BAB-7E96-C320-4FB88AD33E83</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_embarque" id="64E316C7-B876-400D-FDD6-DE8209F820BC">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>74AF176B-32BC-71C4-54DF-11D2D1D7872C</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_desembarque" id="2B2BE326-01BE-00D0-E4E9-8D1DF4ADA59E">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>5DF7D2C1-AF6D-A18F-DB31-A4572D2E42E4</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B9F0A86-EB76-B6D5-7957-424EFC698C88" name="TB_EMBARQUES_PK">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>8677A2E0-E3B2-BC2D-17E6-E76D90CE7B26</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89FF4F08-1E0B-F267-D06B-0B202E0E8A0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

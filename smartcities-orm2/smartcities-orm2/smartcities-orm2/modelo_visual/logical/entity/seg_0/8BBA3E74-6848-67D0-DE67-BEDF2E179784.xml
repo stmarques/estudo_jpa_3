@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8BBA3E74-6848-67D0-DE67-BEDF2E179784" name="TB_PASSAGEIROS">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-06 22:41:12 UTC</createdTime>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<engineerTo>
+<item key="E0AE2673-B4DD-99B9-79A8-A5F7E67076BB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_passageiro" id="384867E0-D73C-D11B-4E59-964E23C6EF6B">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-06 22:42:52 UTC</createdTime>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<engineerTo>
+<item key="E0AE2673-B4DD-99B9-79A8-A5F7E67076BB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_passageiro" id="44A3A10A-0525-CE17-4190-C0026310D214">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-06 22:42:03 UTC</createdTime>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<engineerTo>
+<item key="E0AE2673-B4DD-99B9-79A8-A5F7E67076BB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_embarque" id="B4CC7D54-A972-8CBA-B298-E014111421B8">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-06 23:09:46 UTC</createdTime>
+<generatorID>C88E5F11-4318-53FB-7897-3EB952145C39</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<engineerTo>
+<item key="E0AE2673-B4DD-99B9-79A8-A5F7E67076BB" value="true"/>
+</engineerTo>
+<referedAttribute>62AFAFCB-6B37-F47A-4FA1-7F50206F70DE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FB10A941-2F5E-79FA-3E81-DE4B6D14BC91" name="TB_CLIENTE PK">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-06 22:42:48 UTC</createdTime>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E0AE2673-B4DD-99B9-79A8-A5F7E67076BB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>384867E0-D73C-D11B-4E59-964E23C6EF6B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DB73BF3F-2C05-FF6F-0DDD-0CF1006A41D7" containerWithKeyObject="789A575F-2689-E07B-6E7D-AC153F8645B5" localFKIndex="F0223731-059D-B013-DCBF-3184F7EDE7E9" name="TB_RESERVA_TB_EMBARQUES_FK">
+<createdBy>amand</createdBy>
+<createdTime>2023-03-07 01:11:14 UTC</createdTime>
+<generatorID>70F1548F-F650-3EC4-13FB-D875AE9D3D9B</generatorID>
+<ownerDesignName>modelo_visual</ownerDesignName>
+<referredTableLongName>TB_EMBARQUES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>637A56C3-CB66-2A35-5D10-8D118905BD4C</referredTableID>
+<keyObject>1B9F0A86-EB76-B6D5-7957-424EFC698C88</keyObject>
+<referredKeyID>1B9F0A86-EB76-B6D5-7957-424EFC698C88</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_embarque</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
